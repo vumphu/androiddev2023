@@ -27,9 +27,9 @@ public class ForecastFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_forecast, container, false);
 
         // Set background colors
-        view.setBackgroundColor(Color.parseColor("#20FF0000")); // Red
+        //view.setBackgroundColor(Color.parseColor("#20FF0000")); // Red
         // You can add more backgrounds here
-        // view.setBackgroundColor(Color.parseColor("#2000FF00")); // Green
+        view.setBackgroundColor(Color.parseColor("#2000FF00")); // Green
         // view.setBackgroundColor(Color.parseColor("#200000FF")); // Blue
 
         return view;
